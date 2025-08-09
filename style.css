@@ -43,25 +43,29 @@ body {
 
 
 .contact {
-  background: rgba(255,255,255,0.35);
-  backdrop-filter: blur(2px);
-  border-radius: 16px;
-  padding: 16px 18px;
-  margin: 10px auto 0;
+  background: rgba(177, 0, 0, 0.15); /* light red tint from logo */
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+  padding: 24px 28px;
+  margin: 20px auto 0;
   width: min(720px, 94vw);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  text-align: center;
 }
 
 .contact p {
-  margin: 10px 0;
-  font-size: clamp(15px, 2.3vw, 18px);
+  margin: 12px 0;
+  font-size: clamp(18px, 2.5vw, 22px); /* bigger text */
+  font-weight: 500;
 }
 
 a {
   color: var(--accent);
   text-decoration: none;
-  font-weight: 700;
-  font-size: clamp(20px, 3vw, 26px); /* larger WhatsApp number font */
+  font-weight: 800;
+  font-size: clamp(22px, 3vw, 28px); /* bigger WhatsApp number */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root { --text: #eaeaea; --muted: #cfcfcf; }
