@@ -40,17 +40,7 @@ body {
   height: auto;
 }
 
-.subtitle {
-  font-size: clamp(18px, 3vw, 26px);
-  margin: 8px 0 6px;
-  font-weight: 600;
-}
 
-.tagline {
-  margin: 4px 0 16px;
-  color: var(--muted);
-  font-size: clamp(16px, 2.5vw, 20px);
-}
 
 .contact {
   background: rgba(255,255,255,0.35);
