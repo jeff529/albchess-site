@@ -1,17 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tirana Chess Open</title>
-</head>
-<body>
-  <main class="study-embed" style="max-width:min(96vw,1000px);margin:32px auto;">
-    <iframe
-      src="https://lichess.org/study/embed/fGqyCbaY/IQegv97v#0"
-      width="860" height="520" frameborder="0" allowfullscreen>
-    </iframe>
-  </main>
-</body>
-</html>
+<main class="study-embed">
+  <iframe
+    src="https://lichess.org/study/embed/fGqyCbaY/IQegv97v#0"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</main>
+
+<style>
+  .study-embed {
+    max-width: min(96vw, 1000px);
+    margin: 32px auto;
+  }
+  .study-embed iframe {
+    width: 100%;
+    height: clamp(520px, 70vh, 680px);
+    border: 0;
+    border-radius: 12px;
+  }
+  /* Optional: give extra room on large screens */
+  @media (min-width: 900px) {
+    .study-embed { max-width: 980px; }
+  }
+</style>
