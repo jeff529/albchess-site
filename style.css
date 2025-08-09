@@ -1,6 +1,5 @@
-/* Background matched to logo */
 :root {
-  --bg: #f4eee4;
+  --bg: #f4eee4; /* background color sampled from your logo */
   --text: #1f1f1f;
   --muted: #333;
   --accent: #b10000;
@@ -35,8 +34,6 @@ body {
   line-height: 1.2;
 }
 
-.sep { opacity: .5; padding: 0 .25em; }
-
 .logo {
   display: block;
   margin: 12px auto 18px;
@@ -68,14 +65,6 @@ body {
 .contact p {
   margin: 10px 0;
   font-size: clamp(15px, 2.7vw, 18px);
-}
-
-.contact hr {
-  border: none;
-  height: 1px;
-  background: rgba(0,0,0,.08);
-  margin: 12px auto;
-  width: 80%;
 }
 
 a {
